@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компаниялары</title>
+
+    <style>
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            background-color: #313131;
+            margin-top: 0;
+            font-weight: bold;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 12px;
+            border-right: 1px solid #fff;
+            border-left: 1px solid #fff;
+            color: #ffc916;
+        }
+        nav a:first-of-type {
+            border-left: none;
+        }
+        nav a:last-of-type {
+            border-right: none;
+        }
+        nav a:hover{
+            color: #fff;
+            background-color: #313131;
+            padding: 12px;
+        }
+
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #313131;
+            border-radius: 10px;
+            background-color: #f0f0f0;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .item {
+            border: 1px solid #313131;
+            width: 50%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            box-sizing: border-box;
+            background-color: #ffffff;
+        }
+
+        .item img {
+            width: 20rem;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .item p{
+            font-weight: bold;
+            font-size: xx-large;
+            margin: 10px;
+        }
+        .item ul{
+            list-style: none;
+            width: 500px;
+            height: auto;
+        }
+        .item li{
+            text-align: left;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <a href="index.html">Жалпы жағдайлар</a>
+    <a href="items.html">Компьютер құрылғылары</a>
+    <a href="security.html">Ақпараттық қауіпсіздік</a>
+    <a href="hacker.html">Хакерлер түрлері</a>
+    <a href="antivirus.html">Антивирустар</a>
+    <a href="virus.html">Зиянды бағдарлама</a>
+    <a href="company.html">Компаниялары</a>
+    <a href="test.html">Тест</a>
+    <a href="authors.html">Авторлар</a>
+    </nav>
+    
+    <div class="info">
+
+        <div class="item"><p>Ұлттық ақпараттық қауіпсіздік үйлестіру орталығы (НКЦИБ)</p>
+            <img src="https://itk.kz/images/4bc6068bd42adcc912b85c51a62c699e_original74966.png" alt="НКЦИБ">
+            Мемлекеттік техникалық қызметтің құрамына кіретін орталық, ол елдегі киберқатерлерді бақылап, алдын алуға жауапты. ҰАҚҮО халықаралық бастамаларға қатысып, бүкіл әлемдегі салалық қызметтермен келісімдер жасайды, бұл кибероқиғаларға тиімді әрекет етуге мүмкіндік береді
+        </div>
+
+        <div class="item"><p>Кибершабуылдарды зерттеу және талдау орталығы (ЦАРКА)</p>
+            <img src="https://cybersec.kz/logo512.png" alt="ЦАРКА">
+            Орталық Азиядағы ең ірі киберқауіпсіздік қызметін жеткізуші. Олар осалдықтарды анықтау және тренингтер жүргізуді қоса алғанда, кешенді қызметтер ұсынады. Сонымен қатар, ЦАРКА халықаралық мамандар мен жергілікті компанияларды тарта отырып, киберқауіпсіздік бойынша KazHackStan конференциясын ұйымдастырады
+        </div>
+        
+        <div class="item"><p>Kazteleport</p>
+            <img src="https://kazteleport.kz/local/templates/kazteleport/images/footer-logo.svg" alt="Kazteleport">
+            Компания инфрақұрылым мониторингі мен қорғауды қоса алғанда, ақпараттық қауіпсіздік қызметтерін ұсынады. Kazteleport қауіп-қатерлерге бейімделуге және ұйымдардың қауіпсіздігін нығайтуға бағытталған кешенді шешімдер жасайды
+        </div>
+
+        <div class="item"><p>iNova Tech</p>
+            <img src="https://media.licdn.com/dms/image/v2/C4E0BAQE9TjoU9sBBhQ/company-logo_200_200/company-logo_200_200/0/1630649261512/inovatechkz_logo?e=2147483647&v=beta&t=WsviyqFc2xpfkC1cz6Q_Jt21sq6XLCoegA15QWkA0so" alt="iNova Tech">
+            Тәулік бойы мониторинг, инфрақұрылымға ену тестілеу (Penetration Testing), Red Team Assessment сияқты қызметтерді қамтитын киберқауіпсіздік саласында маманданған компания. iNova Tech компанияларға елеулі қатерлер туындағанға дейін осалдықтарды анықтап, жоюға көмектеседі
+        </div>
+    </div>
+</body>
+</html>
